@@ -1,0 +1,29 @@
+:root
+{
+  --yellow: #e42322;
+    --orange : #0d9438;
+    --black : #182a45;
+    --gray : #005177;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+@font-face {
+  font-family: Gumela;
+  src: local("Gumela"), url(./fonts/GumelaRegular.otf) format("opentype");
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);  
+    font-family: 'Gumela, sans-serif';
+}
+
+
+  
+
+  
